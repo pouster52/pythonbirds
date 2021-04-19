@@ -18,4 +18,10 @@ if __name__ == '__main__':
     print(alice.idade)
     for filho in alice. filhos:
         print(filho.nome)
+    alice.sobrenome = 'ilha ramalho'
+    del alice.filhos
+    del pouster.filhos
+    print(alice.__dict__)
+    print(pouster.__dict__)
+
 
